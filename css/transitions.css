@@ -1,0 +1,129 @@
+#ex01 .recipe {
+  transition: transform 0.3s ease-in;
+}
+
+#ex01 .recipe:hover {
+  transform: scale(1.1);
+}
+
+#ex01 .recipe-title {
+}
+
+#ex02 .recipe img {
+  transition: transform 0.3s ease-in;
+}
+
+#ex02 .recipe:hover img {
+  transform: rotate(10deg);
+}
+
+#ex01 .recipe-title {
+}
+
+#ex03 .recipe img {
+  transition: opacity 0.3s ease-in;
+}
+
+#ex03 .recipe:hover img {
+  opacity: 0.6;
+}
+
+#ex01 .recipe-title {
+}
+
+#ex04 .recipe img {
+}
+
+#ex04 .recipe:hover .recipe-title {
+  padding-left: 10px;
+}
+
+#ex04 .recipe-title {
+  transition: padding 0.3s ease-in;
+}
+
+#ex04 .recipe img {
+}
+
+#ex05 .recipe:hover .recipe-title {
+  padding-left: 10px;
+}
+
+#ex05 .recipe-title {
+  transition: padding 0.3s 0.2s ease-in;
+}
+
+#ex04 .recipe img {
+}
+
+#ex06 .recipe:hover .recipe-title {
+  margin-bottom: 30px;
+}
+
+#ex06 .recipe-title {
+  transition: margin 0.3s ease-in;
+}
+
+#ex04 .recipe img {
+}
+
+#ex07 .recipe:hover .recipe-title {
+  transform: translateY(30px);
+  margin-bottom: 30px;
+}
+
+#ex07 .recipe-title {
+  transition: margin 0.3s ease-in, transform 0.3s 0.3s ease-in;
+}
+
+#ex08 .recipe {
+  transition: filter 0.3s ease-in;
+}
+
+#ex08 .recipe:hover {
+  filter: drop-shadow(0px 0px 10px #000);
+}
+
+#ex08 .recipe-title {
+}
+
+#ex09 .recipe img {
+}
+
+#ex09 .recipe:hover .recipe-title {
+  transform: translateY(-30px);
+}
+
+#ex09 .recipe-title {
+  transition: transform 0.3s ease-in;
+  background-color: white;
+  padding: 15px 20px;
+  margin: 0px 0px;
+}
+
+#ex09 .recipe-header {
+  padding: 0px 0px 10px;
+}
+
+#ex10 .recipe img {
+}
+
+#ex10 .recipe:hover .recipe-image-wrapper :last-child {
+  transform: translatex(0%);
+}
+
+#ex10 .recipe-image-wrapper :last-child {
+  transition: transform 0.3s ease-in;
+  transform: translateX(-100%);
+  z-index: 1;
+  position: absolute;
+  top: 0px;
+}
+
+#ex10 .recipe-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+#ex10 .recipe-image-wrapper :first-child {
+}
